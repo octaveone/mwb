@@ -13,7 +13,7 @@ output:
 
 # ***What's This Blog About?***
 
-<font size=5>
+<font size=4>
 
 I started this blog out of boredom concomitant with online classes & webinars. I really hoped that studying in Hyderabad would allow me to rediscover my inner carnivore. 
 
@@ -33,7 +33,7 @@ Instead, I'm stuck indoors & mostly find myself staring at my laptop screen when
 
 ### July 2020
 
-<font size=5>
+<font size=4>
 
 [001 - How to learn from Coursera MOOCs offered in a language you don't understand?](https://octaveone.github.io/mwb/coursera_language_fix.html)
 

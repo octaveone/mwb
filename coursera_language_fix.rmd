@@ -12,7 +12,7 @@ output:
 
 # The Solution
 
-<font size=5> 
+<font size=4> 
 
 Well, with a little bit of extra effort (but of course!). But this extra effort need not be too complicated -
 
@@ -34,7 +34,7 @@ Luckily, the courses I enrolled for were ***mathematical***. Most of the slides 
 
 ## The Original Problem
 
-<font size=5> 
+<font size=4> 
 
 Coursera offers many courses which are not taught in English.
 
@@ -48,7 +48,7 @@ This new problem prompted me to use this workaround of translating the subtitles
 
 ## The Courses
 
-<font size=5> 
+<font size=4> 
 
 I've mentioned their names only in English for brevity's sake, although all of them are taught in _Spanish_ - 
 

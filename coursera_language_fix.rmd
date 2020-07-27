@@ -10,7 +10,7 @@ output:
 
 ----
 
-# The Solution {.tabset .tabset-fade .tabset-pills}
+# The Solution
 
 Well, with a little bit of extra effort (but of course!). But this extra effort need not be too complicated -
 
@@ -22,7 +22,7 @@ Well, with a little bit of extra effort (but of course!). But this extra effort 
 
 1. ***Watch lecture videos with the subtitles on*** - If you can binge watch Netflix series in different languages, then you certainly can learn from Coursera MOOCs in different languages too!
 
-Luckily, the courses I enrolled for were ***mathematical***. Most of the slides contained equations & diagrams - meaning, less words. So, understanding the content in the slides wasn't really an issue.
+Luckily, the courses I enrolled for were ***mathematical***. Most of the slides contained equations & diagrams - meaning, less words. [Google Translate](https://translate.google.com) helped me learn a few Spanish words which were on the slides.
 
 ----
 
@@ -40,7 +40,7 @@ This new problem prompted me to use this workaround of translating the subtitles
 
 ## The Courses
 
-I've mentioned their names only in English for brevity's sake - 
+I've mentioned their names only in English for brevity's sake, although all of them are taught in _Spanish_ - 
 
 - [***Transportation System Analysis***](https://www.coursera.org/learn/analisis-sistemas-de-transporte) - which is taught by, amongst others, Prof. Juan de Dios Ortuzar
 

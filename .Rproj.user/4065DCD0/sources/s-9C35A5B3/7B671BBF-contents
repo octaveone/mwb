@@ -1,10 +1,10 @@
 ---
 title: "Academic Tidbits"
-author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/)"
+author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 27 July 2020"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+      html_document:
+        toc: true
+        toc_float: true
     
 ---
   
@@ -14,9 +14,6 @@ output:
   
 Of the many extraordinary qualities I possess, asking stupid questions is the one which
 I'm really proud of. Such a quality is deemed valuable in a slave to an excessively inquiring mind. 
-
-This has lead to the impression, amongst those around me, that I am beyond 
-reproach, & should be just left to being myself.
 
 In the spirit of disorganized inquiry, this page will contain posts on trivial stuff related to subjects I find interesting.
 

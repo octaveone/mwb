@@ -15,8 +15,12 @@ output_dir: "."
 #  prettydoc::html_pretty:
 #    theme: cayman
 output:
-  html_document:
-    theme: journal
-    highlight: textmate
-#    include:
-#      after_body: _footer.html
+  # prettydoc::html_pretty:
+  #   theme: cayman
+  #   highlight: github
+
+ html_document:
+   theme: journal
+   highlight: textmate
+   # include:
+   #   after_body: _footer.html

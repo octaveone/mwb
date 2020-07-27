@@ -3,7 +3,7 @@
     "path": "G:/1_Website/mwb/acad.rmd",
     "project_path": "acad.rmd",
     "type": "r_markdown",
-    "hash": "1471726547",
+    "hash": "1950708451",
     "contents": "",
     "dirty": false,
     "created": 1595867800389.0,
@@ -11,15 +11,15 @@
     "relative_order": 4,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "45,0",
-        "scrollLine": "16"
+        "cursorPosition": "14,14",
+        "scrollLine": "12"
     },
     "folds": "",
-    "lastKnownWriteTime": 1595877408,
+    "lastKnownWriteTime": 1595883421,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1595877408473,
+    "last_content_update": 1595883421808,
     "read_only": false,
     "read_only_alternatives": []
 }

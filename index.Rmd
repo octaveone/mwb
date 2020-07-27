@@ -1,6 +1,6 @@
 ---
-title: "Making free websites with RStudio's R Markdown"
-author:  "[Julie Lowndes](https://github.com/jules32) at [NCEAS](https://www.nceas.ucsb.edu/), 12/14/16"
+title: "Slave to an Excessively Enquiring Mind"
+author:  "[G Arvind Kumar](https://www.linkedin.com/in/g-arvind-kumar/), 27 July 2020"
 output:
   html_document:
     fig_width: 1
@@ -8,7 +8,7 @@ output:
 
 ----
 
-It's possible to create well-designed websites for free using [RStudio's R Markdown](http://rmarkdown.rstudio.com/) and hosting them on [Github](http://github.com). This is very new and incredibly cool. It is a really powerful way to communicate science using the same reproducible workflow you use for your analyses and collaborations.
+This webiste was setup as a spur of the moment
 
 ***Creating websites with R Markdown can be done without knowing R or HTML, CSS, etc,*** and that's where we'll start. However, R Markdown integrates with these tools so the more you know the more complex and beautiful your website can be. This tutorial borrows heavily from a lot of great tutorials and resources you should check out too -- there are links throughout. 
 

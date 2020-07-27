@@ -5,11 +5,12 @@ output:
     html_document:
      toc: true
      toc_float: true
+     number_sections: true
 ---
 
 ----
 
-## The Solution
+# The Solution {.tabset .tabset-fade .tabset-pills}
 
 Well, with a little bit of extra effort (but of course!). But this extra effort need not be too complicated -
 
@@ -25,9 +26,9 @@ Luckily, the courses I enrolled for were ***mathematical***. Most of the slides 
 
 ----
 
-## FYI
+# FYI
 
-### The Original Problem
+## The Original Problem
 
 Coursera offers many courses which are not taught in English.
 
@@ -37,7 +38,7 @@ My initial solution was to translate the transcripts. This was stupid, given tha
 
 This new problem prompted me to use this workaround of translating the subtitles file, instead.
 
-### The Courses
+## The Courses
 
 I've mentioned their names only in English for brevity's sake - 
 

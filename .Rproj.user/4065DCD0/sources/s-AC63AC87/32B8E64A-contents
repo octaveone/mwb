@@ -5,6 +5,7 @@ output:
       html_document:
         toc: true
         toc_float: true
+        number_sections: true
     
 ---
 
@@ -14,13 +15,34 @@ output:
 
 <font size=4>  
 
-<center><img src="images/Aggregate.png"></center>
+There are two ways to go about this - 
 
+- A slightly simplified figure
+
+- An oversimplified diagram
+
+</font>
+
+## A slightly simplified figure
+
+<font size=4> 
+
+<figure>
+    <center><img src="images/Aggregate.png"></center>
+    <figcaption> ***Fig. 1*** - Although aggreagates aren't shaped like stars (or shurikens, for that matter!), this figure allows us to appreciate the various components of a bituminous mix</figcaption>
+</figure>
+
+</font>
+
+## An oversimplified diagram
+
+<font size=4>
+
+The terms used in ***Fig. 2*** are defined a few scrolls ahead
 
 <br>
 <br>
 
 [***G Arvind Kumar, 2020 © ***](https://www.linkedin.com/in/g-arvind-kumar/) |  [***Contact - ✉***](mailto:arvind.academic.only@gmail.com)
-
 
 </font>

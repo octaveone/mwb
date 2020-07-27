@@ -3,7 +3,7 @@
     "path": "G:/1_Website/mwb/coursera_language_fix.rmd",
     "project_path": "coursera_language_fix.rmd",
     "type": "r_markdown",
-    "hash": "3934161331",
+    "hash": "1276287518",
     "contents": "",
     "dirty": false,
     "created": 1595838344030.0,
@@ -11,15 +11,15 @@
     "relative_order": 2,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "51,283",
-        "scrollLine": "42"
+        "cursorPosition": "1,14",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1595840740,
+    "lastKnownWriteTime": 1595861969,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1595840740694,
+    "last_content_update": 1595861969094,
     "read_only": false,
     "read_only_alternatives": []
 }

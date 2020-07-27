@@ -21,12 +21,12 @@ Luckily, the courses I enrolled for were ***mathematical*** in which most the sl
 
 ***Courses that prompted me to use this workaround - ***
 
-- [Análisis de Sistemas de Transporte ***(Transportation System Analysis)***](https://www.coursera.org/learn/analisis-sistemas-de-transporte) - which is taught by, amongst others, Prof. Juan de Dios Ortuzar - whose textbook ["Modelling Transport"](https://www.wiley.com/en-us/Modelling+Transport%2C+4th+Edition-p-9780470760390) has led to far too many over-caffeinated study sessions than I care to admit
+- [AnÃ¡lisis de Sistemas de Transporte ***(Transportation System Analysis)***](https://www.coursera.org/learn/analisis-sistemas-de-transporte) - which is taught by, amongst others, Prof. Juan de Dios Ortuzar - whose textbook ["Modelling Transport"](https://www.wiley.com/en-us/Modelling+Transport%2C+4th+Edition-p-9780470760390) has led to far too many over-caffeinated study sessions than I care to admit
 
 If you are really are interested in the subject & looking for a more approachable resource, then the co-author of the book [Luis Willumsen](http://www.luiswillumsen.com/) has written a book on traffic forecasting (geared towards practitioners) - [Better Traffic & Revenue Forecasting](https://www.amazon.com/Better-Traffic-Revenue-Forecasting-Willumsen/dp/0992843308)
 
-- [Introducción a los modelos de demanda de transporte ***(Introduction to Transport Demand Models)***](https://www.coursera.org/learn/demanda-de-transporte) - which, again, is taught by, amongst others, Prof. Juan de Dios Ortuzar
+- [Introducci?n a los modelos de demanda de transporte ***(Introduction to Transport Demand Models)***](https://www.coursera.org/learn/demanda-de-transporte) - which, again, is taught by, amongst others, Prof. Juan de Dios Ortuzar
 
-- [Ingeniería de Tráfico ***(Traffic Engineering)***](https://www.coursera.org/learn/ingenieria-trafico)
+- [Ingenier?a de Tr?fico ***(Traffic Engineering)***](https://www.coursera.org/learn/ingenieria-trafico)
 
-- [¿Cómo viajamos por la ciudad? Asignación y equilibrio en redes de transporte ***(How do we travel around the city? Allocation and balance in transport networks)***](https://www.coursera.org/learn/equilibrio-redes-transporte)
+- [?C?mo viajamos por la ciudad? Asignaci?n y equilibrio en redes de transporte ***(How do we travel around the city? Allocation and balance in transport networks)***](https://www.coursera.org/learn/equilibrio-redes-transporte)

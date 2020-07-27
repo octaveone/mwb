@@ -20,7 +20,7 @@ Well, with a little bit of extra effort (but of course!). But this extra effort 
 
 1. ***Translate the subtitles*** (which usually end with '.vtt') using any website which offers to translate subtitles - I prefer [Subtitle Translator](https://subtitlestranslator.com/) which is free to use^[This involves uploading the subtitle files which you have & then downloading the translated subtitle files. Using an anti-virus software to scan the downloaded files for malware is good internet hygiene. Please keep that in mind!]
 
-1. ***Watch lecture videos with the subtitles on*** - If you can binge watch Netflix series in different languages, then you certainly can learn from Coursera MOOCs in different languages too!
+1. ***Watch lecture videos with the subtitles on*** - And pray that Google Translate got it right
 
 Luckily, the courses I enrolled for were ***mathematical***. Most of the slides contained equations & diagrams - meaning, less words. [Google Translate](https://translate.google.com) helped me learn a few Spanish words which were on the slides.
 

@@ -1,0 +1,26 @@
+---
+title: "002 - Deriving the expressions used in Marshall Mix Design"
+author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 28 July 2020"
+output: 
+      html_document:
+        toc: true
+        toc_float: true
+    
+---
+
+----
+
+# Visualizing the mix
+
+<font size=4>  
+
+<center><img src="images/Aggregate.png"></center>
+
+
+<br>
+<br>
+
+[***G Arvind Kumar, 2020 © ***](https://www.linkedin.com/in/g-arvind-kumar/) |  [***Contact - ✉***](mailto:arvind.academic.only@gmail.com)
+
+
+</font>

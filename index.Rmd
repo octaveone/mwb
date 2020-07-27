@@ -1,0 +1,36 @@
+---
+title: "Slave to an excessively enquiring mind"
+author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/), 27 July 2020"
+output:
+  html_document:
+    fig_width: 1
+---
+
+----
+
+***How to learn from Coursera MOOCS offered in a language you don't understand?*** 
+
+Well, with a little bit of extra effort (but of course!). But this extra effort need not be too complicated -
+
+1. ***Enroll*** in the course (Duh!)
+1. ***Download the lecture videos & the subtitles*** to your laptop/PC (really important that you do this)
+1. ***Translate the subtitles*** (which are usually the files with the '.vtt' extension) using any website which offers to translate subtitles which typically involves uploading the subtitle files which you have & then downloading the translated subtitle files - I prefer [Subtitle Translator](https://subtitlestranslator.com/) which is free to use
+1. ***Watch lecture videos with the subtitles on*** - If you can binge watch Neflix series in different languages, then you certainly can learn from Coursera MOOCs in different languages too!
+
+Luckily, the courses I enrolled for were ***mathematical*** in which most the slides contained equations & diagrams - meaning less words - which mostly don't need to be translated
+
+***Courses that prompted me to use this workaround - ***
+
+- [Análisis de Sistemas de Transporte (Transportation System Analysis)](https://www.coursera.org/learn/analisis-sistemas-de-transporte) - which is taught by, amongst others, Prof. Juan de Dios Ortuzar - whose textbook ["Modelling Transport"](https://www.wiley.com/en-us/Modelling+Transport%2C+4th+Edition-p-9780470760390) has led to far too many over-caffeinated study sessions than I care to admit
+
+If you are really are interested in the subject & looking for a more approachable resource, then the co-author of the book [Luis Willumsen](http://www.luiswillumsen.com/) has written a book on traffic forecasting (geared towards practitioners) - [Better Traffic & Revenue Forecasting](https://www.amazon.com/Better-Traffic-Revenue-Forecasting-Willumsen/dp/0992843308)
+
+- [Introducción a los modelos de demanda de transporte (Introduction to Transport Demand Models)](https://www.coursera.org/learn/demanda-de-transporte) - which, again, is taught by, amongst others, Prof. Juan de Dios Ortuzar
+
+- [Traffic Engineering (Ingeniería de Tráfico)](https://www.coursera.org/learn/ingenieria-trafico)
+
+- [¿Cómo viajamos por la ciudad? Asignación y equilibrio en redes de transporte(How do we travel around the city? Allocation and balance in transport networks)](https://www.coursera.org/learn/equilibrio-redes-transporte)
+
+
+
+

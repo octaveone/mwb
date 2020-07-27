@@ -3,22 +3,22 @@
     "path": "G:/1_Website/mwb/index.Rmd",
     "project_path": "index.Rmd",
     "type": "r_markdown",
-    "hash": "3461376901",
+    "hash": "1644620216",
     "contents": "",
     "dirty": false,
     "created": 1595835993105.0,
     "source_on_save": false,
     "relative_order": 1,
     "properties": {
-        "cursorPosition": "2,80",
+        "cursorPosition": "16,0",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1595838568,
+    "lastKnownWriteTime": 1595839138,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1595838568154,
+    "last_content_update": 1595839138478,
     "read_only": false,
     "read_only_alternatives": []
 }

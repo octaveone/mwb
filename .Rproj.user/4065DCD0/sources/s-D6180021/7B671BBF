@@ -1,25 +1,25 @@
 {
-    "id": "20FD1A34",
+    "id": "7B671BBF",
     "path": "G:/1_Website/mwb/acad.rmd",
     "project_path": "acad.rmd",
     "type": "r_markdown",
-    "hash": "858994989",
+    "hash": "0",
     "contents": "",
     "dirty": false,
-    "created": 1595866072975.0,
+    "created": 1595867800389.0,
     "source_on_save": false,
-    "relative_order": 5,
+    "relative_order": 4,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "29,64",
-        "scrollLine": "17"
+        "cursorPosition": "33,17",
+        "scrollLine": "22"
     },
     "folds": "",
-    "lastKnownWriteTime": 1595867571,
+    "lastKnownWriteTime": 1595868293,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1595867571857,
+    "last_content_update": 1595868293238,
     "read_only": false,
     "read_only_alternatives": []
 }

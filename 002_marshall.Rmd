@@ -11,34 +11,45 @@ output:
 
 ----
 
-# Visualizing the mix
+# Visualizing the mix at different levels
 
 <font size=4>  
 
-There are two ways to go about this - 
-
-- A slightly simplified figure
-
-- An oversimplified diagram
-
 </font>
 
-## A slightly simplified figure
+## Oversimplified Aggregate Particle
 
 <font size=4> 
 
 <figure>
-    <center><img src="images/Aggregate.png"></center>
-    <figcaption> ***Fig. 1*** - Although aggreagates aren't shaped like stars (or shurikens, for that matter!), this figure allows us to appreciate the various components of a bituminous mix</figcaption>
+    <center><img src="images/Aggregate-1.png"></center>
+    <figcaption> ***Fig. 1*** - Although aggreagates aren't shaped like spheres, this figure allows us to appreciate the various components of an aggregate particle </figcaption>
 </figure>
+
+<br>
+
+There are three different ways of calculating the specific gravity of an aggregate (depending on which combination of components one includes in the volume of the aggregate) -
+
+- __Apparent Specific Gravity, G<sub>sa</sub> - __ The volume of the aggregate doesn't include the water-permeable voids
+
+- __Bulk Specific Gravity, G<sub>sb</sub> - __ The volume of the aggregate includes the water-permeable voids
+
+- __Effective Specific Gravity, G<sub>se</sub> - __ The volume of the aggregate doesn't include 'that portion of the water-permeable voids which isn't filled with bitumen'
+
+_Note:_ In the subscripts, 's' - stone, 'a' - apparent, 'b' - bulk, & 'e' - effective
 
 </font>
 
-## An oversimplified diagram
+## Oversimplified Bitumen-coated Aggregate Particles
+
+<figure>
+    <center><img src="images/Aggregate-3.png"></center>
+    <figcaption> ***Fig. 2*** - Note the difference between intra-aggregate air voids & inter-aggregate air voids </figcaption>
+</figure>
 
 <font size=4>
 
-The terms used in ***Fig. 2*** are defined a few scrolls ahead
+
 
 <br>
 <br>

@@ -11,7 +11,7 @@ output:
 
 ----
 
-# ***What's This Blog About?***
+# <font color="ED820E"> **What's This Blog About?** </font>
 
 <font size=4>
 
@@ -30,31 +30,35 @@ So, on this small nook of the world wide web, you'll find posts on -
 
 - What I have been reading - I usually read non-fiction & occasionally fiction
 
-- Some tidbits related to my academic interests
+- Some tidbits related to my academic interests & a few lazy hacks
 
 </font>
 
-# ***Recent Posts***
+# <font color="ED820E"> **Recent Posts** </font>
+
+<center>
 
 ## 2020
 
-### <font color="8F223A"> August 2020 </font>
+### <font color="8F223A"> August </font>
 
 <font size=4>
 
 <font color="#0F5499">
 
-- __[BC-001] [Upcoming]__ _A Republic in the Making: India in the 1950s by Gyanesh Kudaisya_
+__[BC-001] [Upcoming]__ _A Republic in the Making: India in the 1950s by Gyanesh Kudaisya_
 
 </font>
 
-### <font color="8F223A"> July 2020 </font>
+### <font color="8F223A"> July </font>
 
 <font size=4>
 
-- [__[HK-001]__ How to learn from Coursera MOOCs offered in a language you don't know?](https://octaveone.github.io/mwb/coursera_language_fix.html)
+[__[HK-001]__ How to learn from Coursera MOOCs offered in a language you don't know?](https://octaveone.github.io/mwb/coursera_language_fix.html)
 
 </font>
+
+</center>
 
 <br>
 <br>

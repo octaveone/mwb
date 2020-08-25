@@ -4,8 +4,8 @@ author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 27 July 202
 output:
   html_document: 
     fig_width: 1
-    toc: true
-    toc_float: true
+    toc: false
+    toc_float: false
   
 ---
 
@@ -22,7 +22,7 @@ I really hoped that studying in Hyderabad would allow me to rediscover my inner 
 Instead, I'm stuck indoors & mostly find myself staring at my laptop screen when I'm awake.
 
 And, of the many extraordinary qualities I possess, asking stupid questions is the one which
-I'm really proud of
+I'm really proud of :)
 
 Such a quality is deemed valuable in a __"slave to an excessively inquiring mind"__, or so I am told.
 
@@ -38,16 +38,27 @@ So, on this small nook of the world wide web, you'll find posts on -
 
 ## 2020
 
+### <font color="8F223A"> August 2020 </font>
+
+<font size=4>
+
+<font color="#0F5499">
+
+- __[002] [Upcoming]__ _A Republic in the Making: India in the 1950s by Gyanesh Kudaisya_
+
+</font>
+
 ### <font color="8F223A"> July 2020 </font>
 
 <font size=4>
 
-- [001 - How to learn from Coursera MOOCs offered in a language you don't understand?](https://octaveone.github.io/mwb/coursera_language_fix.html)
+- [__[001]__ How to learn from Coursera MOOCs offered in a language you don't understand?](https://octaveone.github.io/mwb/coursera_language_fix.html)
+
+</font>
 
 <br>
 <br>
 
 [***G Arvind Kumar, 2020 © ***](https://www.linkedin.com/in/g-arvind-kumar/) |  [***Contact - ✉***](mailto:arvind.academic.only@gmail.com)
 
-</font>
 

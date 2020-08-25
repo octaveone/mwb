@@ -2,7 +2,7 @@ name: "R Markdown Websites Tutorial"
 navbar:
   title: "HOME"
   left:
-    - text: "Books"
+    - text: "Books I've Read"
       href: books.html
    # - text: "Academic Tidbits"
    #   href: acad.html

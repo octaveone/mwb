@@ -1,0 +1,44 @@
+---
+title: "Books Corner"
+author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 27 July 2020"
+output: 
+      html_document:
+        toc: true
+        toc_float: true
+    
+---
+  
+----
+  
+# ***Caveat Emptor***
+
+<font size=4> 
+
+In the spirit of disorganized inquiry, this page will contain posts on books related to stuff I find interesting.
+
+</font>
+
+----
+
+# ***Recent Posts***
+
+## 2020
+
+### <font color="8F223A"> July 2020 </font>
+
+<font size=4> 
+
+<font color="#0F5499">
+
+__[002] [Upcoming]__ _A Republic in the Making: India in the 1950s by Gyanesh Kudaisya_
+
+</font>
+
+<br>
+<br>
+
+ 
+
+[***G Arvind Kumar, 2020 © ***](https://www.linkedin.com/in/g-arvind-kumar/) |  [***Contact - ✉***](mailto:arvind.academic.only@gmail.com)
+
+</font>

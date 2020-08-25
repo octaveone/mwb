@@ -1,0 +1,61 @@
+#TIDYING UP
+############################################################################
+
+#Clear all plots
+
+dev.off()
+
+#Clear the Global Environment
+
+rm(list = ls())
+
+#Clear the Console
+
+cat("\014")
+
+#Set the working directory
+
+setwd("G:/G_Arvind_Kumar_ME_2019_21/1RDUMP/Collaborators")
+
+#Importing all packages that are required for this script
+##############################################################################
+
+library(dplyr)               #For dtaframe manipulation
+library(ggplot2)             #For plots
+theme_set(theme_bw())
+library("sf")                #For working with spatial data
+library("rnaturalearth")     #Provides a map of countries of the entire world
+library("rnaturalearthdata") #Provides common data of countries of the entire world
+
+#Plotting World Map
+##############################################################################
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+class(world)
+
+ggplot(data = world) +
+  geom_sf(color = "white", fill = "#A5A5A5") +
+  ggtitle("Geographic Spread", subtitle = "International Collaborators")
+
+new_world <- subset(world, continent != "Antarctica")
+
+ggplot(data = new_world) +
+  geom_sf(color = "white", fill = "#A5A5A5") +
+  ggtitle("Geographic Spread", subtitle = "International Collaborators")
+
+#Importing data
+##############################################################################
+
+COLLAB<-as.data.frame(read.csv("collab.csv", 
+                             header = TRUE, 
+                             sep = ",", 
+                             stringsAsFactors = FALSE))
+
+str(COLLAB)
+
+
+cities<-COLLAB$Cities
+
+data(world.cities)
+
+str(maps)

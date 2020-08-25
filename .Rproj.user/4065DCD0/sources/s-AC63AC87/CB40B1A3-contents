@@ -1,0 +1,30 @@
+library(maps)
+
+map("state", interior = TRUE)
+
+map("state", boundary = FALSE, col="gray", add = TRUE)
+
+library(htmltools)
+library(sf)
+library(raster)
+library(dplyr)
+library(spData)
+library(tmap)    # for static and interactive maps
+library(leaflet) # for interactive maps
+library(mapview) # for interactive maps
+library(ggplot2) # tidyverse data visualization package
+library(shiny)   # for web applications
+
+us_states_map = tm_shape(us_states, projection = 2163) + tm_layout(frame = FALSE) + 
+  tm_borders(col = "white", lwd=3) + tm_fill(col = "gray", alpha = 0.6)
+
+
+#hawaii_map = tm_shape(hawaii) + tm_polygons() + 
+  #tm_layout(title = "Hawaii", frame = FALSE, bg.color = NA, 
+            #title.position = c("LEFT", "BOTTOM"))
+#alaska_map = tm_shape(alaska) + tm_polygons() + 
+  #tm_layout(title = "Alaska", frame = FALSE, bg.color = NA)
+
+us_states_map
+#print(hawaii_map, vp = grid::viewport(0.35, 0.1, width = 0.2, height = 0.1))
+#print(alaska_map, vp = grid::viewport(0.15, 0.15, width = 0.3, height = 0.3))

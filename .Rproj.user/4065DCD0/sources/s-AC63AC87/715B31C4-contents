@@ -1,0 +1,139 @@
+#TIDYING UP
+############################################################################
+
+#Clear all plots
+
+dev.off()
+
+#Clear the Global Environment
+
+rm(list = ls())
+
+#Clear the Console
+
+cat("\014")
+
+#Set the working directory
+
+setwd("G:/G_Arvind_Kumar_ME_2019_21/1_2_RP/Analysis")
+
+############################################################################
+
+#Importing all packages that are required for this script
+##############################################################################
+
+library(dplyr)         #For dtaframe manipulation
+library(ggplot2)       #For plots
+library(GGally)        #For Scatterplots
+library(ggcorrplot)    #For correlogram
+library(sqldf)         #For SQL functions 
+library(car)           #For regression 
+library(plotly)        #For interactive plots
+library(fastDummies)   #For dummy variable related operations
+library(MLmetrics)     #For MAPE & other parameters
+library(olsrr)         #For OLS model diagnostic plots
+
+##############################################################################
+
+#DAT for the analysis is imported from the CSV file
+##############################################################################
+
+#Importing the dataset as a dataframe involves the following function
+#The read.table function which reads the csv file 
+#The data.frame function which then returns a datframe 
+#object which is saved as a data frame object
+
+DAT1<-as.data.frame(read.csv("2_Urban.csv", 
+                            header = TRUE, 
+                            sep = ",", 
+                            stringsAsFactors = FALSE))
+
+DAT2<-as.data.frame(read.csv("2_Suburban.csv", 
+                             header = TRUE, 
+                             sep = ",", 
+                             stringsAsFactors = FALSE))
+
+
+DAT<-rbind(DAT1, DAT2)
+
+DAT = DAT %>% mutate(UOS = ifelse(U_S == "Urban", "U", "S")) 
+
+head(DAT)
+
+DAT_A<-DAT[, c("EID", "YB", "GFA", "NE", "FP", "UOS", "CODE")]
+
+DAT_A = arrange(DAT_A, EID)
+
+DAT_A = dummy_cols(DAT_A, select_columns = "UOS")
+
+str(DAT_A)
+
+str(DAT_A)
+
+head(DAT_A)
+
+cor(select_if(DAT_A, is.numeric))
+
+#Model - 0
+##############################################################################
+
+DAT_ISIC = split(DAT_A, f = DAT_A$CODE)
+
+DAT_A_10 = DAT_ISIC[[1]]
+
+DAT_M0<-DAT_A_10
+
+DAT_M0$ROW<-as.numeric(rownames(DAT_M0))
+
+m<-lm(FP~NE-1, DAT_M0)
+
+M0<-lm(FP~NE+UOS_U-1, DAT_M0)
+
+summary(m)
+
+summary(M0)
+
+DAT_M0$RESID<-residuals(M0)
+
+DAT_M0$ARESID<-abs(DAT_M0$RESID)
+
+DAT_M0$PRED<-predict(M0)
+
+DAT_M0$CD<-cooks.distance(M0)
+
+arrange(DAT_M0, desc(CD))
+
+RMSE_M0<-round(sqrt(sum(M0$residuals^2) /M0$df), 2)
+
+MAPE_M0<-round(100*MAPE(DAT_M0$PRED, DAT_M0$FP),2)
+
+DAT_M0<-mutate(DAT_M0, SDP = ifelse(ARESID>2.5*RMSE_M0, "Y", "N"))
+
+OUT_M0_RMSE<-filter(DAT_M0, SDP == "Y")$ROW
+
+OUT_M0_RESID<-as.numeric(top_frac(arrange(DAT_M0, desc(ARESID)), 0.10, ARESID)$ROW)
+
+#Model - 1
+##############################################################################
+
+DAT_M1<-DAT_M0[!DAT_M0$ROW %in% OUT_M0_RMSE,]
+
+DAT_M1$ROW<-as.numeric(rownames(DAT_M1))
+
+M1<-lm(FP~NE+UOS_U-1, DAT_M1)
+
+summary(M1)
+
+DAT_M1$RESID<-residuals(M1)
+
+DAT_M1$ARESID<-abs(DAT_M1$RESID)
+
+DAT_M1$PRED<-predict(M1)
+
+RMSE_M1<-round(sqrt(sum(M1$residuals^2) /M1$df), 2)
+
+MAPE_M1<-round(100*MAPE(DAT_M1$PRED, DAT_M1$FP),2)
+
+summary(M1)
+
+summary(M0)

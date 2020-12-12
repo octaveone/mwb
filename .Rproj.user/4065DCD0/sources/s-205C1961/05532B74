@@ -3,7 +3,7 @@
     "path": "G:/1_Website/mwb/BK001_republic.Rmd",
     "project_path": "BK001_republic.Rmd",
     "type": "r_markdown",
-    "hash": "38399212",
+    "hash": "2535989168",
     "contents": "",
     "dirty": false,
     "created": 1607750903537.0,
@@ -11,15 +11,15 @@
     "relative_order": 2,
     "properties": {
         "tempName": "Untitled1",
-        "cursorPosition": "12,10",
-        "scrollLine": "0"
+        "cursorPosition": "22,41",
+        "scrollLine": "4"
     },
     "folds": "",
-    "lastKnownWriteTime": 1607751100,
+    "lastKnownWriteTime": 1607751676,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1607751100473,
+    "last_content_update": 1607751676227,
     "read_only": false,
     "read_only_alternatives": []
 }

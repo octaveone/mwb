@@ -23,6 +23,17 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -273,7 +284,10 @@ $(document).ready(function () {
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="books.html">Books I've Read</a>
+  <a href="books.html">Pustak</a>
+</li>
+<li>
+  <a href="acad.html">Tidbits</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -297,11 +311,10 @@ $(document).ready(function () {
 <div id="whats-this-blog-about" class="section level1">
 <h1><font color="ED820E"> <strong>What’s This Blog About?</strong> </font></h1>
 <p><font size=4></p>
-<p>I started this blog out of boredom concomitant with online classes &amp; webinars.</p>
+<p>I started this blog out of boredom - online classes &amp; webinars are the culprits here.</p>
 <p>I really hoped that studying in Hyderabad would allow me to rediscover my inner carnivore.</p>
 <p>Instead, I’m stuck indoors &amp; mostly find myself staring at my laptop screen when I’m awake.</p>
 <p>And, of the many extraordinary qualities I possess, asking stupid questions is the one which I’m really proud of :)</p>
-<p>Such a quality is deemed valuable in a <strong>“slave to an excessively inquiring mind”</strong>, or so I am told.</p>
 <p>So, on this small nook of the world wide web, you’ll find posts on -</p>
 <ul>
 <li><p>What I have been reading - I usually read non-fiction &amp; occasionally fiction</p></li>
@@ -314,19 +327,17 @@ $(document).ready(function () {
 <center>
 <div id="section" class="section level2">
 <h2>2020</h2>
+</center>
 <div id="august" class="section level3">
-<h3><font color="8F223A"> August </font></h3>
+<h3><font color="ED820E"> August </font></h3>
 <p><font size=4></p>
-<p><font color="#0F5499"></p>
-<p><strong>[BC-001] [Upcoming]</strong> <em>A Republic in the Making: India in the 1950s by Gyanesh Kudaisya</em></p>
-<p></font></p>
+<p><a href="BK001_republic.html"><strong>[BK001]</strong> A Republic in the Making by Gyanesh Kudaisya</a></p>
 </div>
 <div id="july" class="section level3">
-<h3><font color="8F223A"> July </font></h3>
+<h3><font color="ED820E"> July </font></h3>
 <p><font size=4></p>
-<p><a href="https://octaveone.github.io/mwb/coursera_language_fix.html"><strong>[HK-001]</strong> How to learn from Coursera MOOCs offered in a language you don’t know?</a></p>
+<p><a href="https://octaveone.github.io/mwb/coursera_language_fix.html"><strong>[HK001]</strong> How to learn from Coursera MOOCs offered in a language you don’t know?</a></p>
 <p></font></p>
-</center>
 <p><br> <br></p>
 <p><a href="https://www.linkedin.com/in/g-arvind-kumar/"><strong><em>G Arvind Kumar, 2020 © </em></strong></a> | <a href="mailto:itikilimitikily@gmail.com"><strong><em>Contact - ✉</em></strong></a></p>
 </div>
@@ -342,7 +353,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();

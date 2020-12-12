@@ -4,20 +4,20 @@ author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 12 Dec 2020
 output: 
       html_document:
         toc: true
-        toc_float: false
+        toc_float: true
     
 ---
   
 ----
 
-# <font color="ED820E"> **The Book** </font>
+#  **The Book** 
   
-# <font color="ED820E"> **Why?** </font>
+#  **Why?** 
 
-# <font color="ED820E"> **What?** </font>
+#  **What?** 
 
-# <font color="ED820E"> **Takeaways** </font>
+#  **Takeaways** 
 
-# <font color="ED820E"> **Tidbits** </font>
+#  **Tidbits** 
 
-# <font color="ED820E"> **Value** </font>
+#  **Value** 

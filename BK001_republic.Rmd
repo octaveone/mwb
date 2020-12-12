@@ -1,0 +1,23 @@
+---
+title: "A Republic in the Making by Gyanesh Kudaisya"
+author:  "[Housecat](https://www.linkedin.com/in/g-arvind-kumar/) on 12 Dec 2020"
+output: 
+      html_document:
+        toc: true
+        toc_float: false
+    
+---
+  
+----
+
+# The Book
+  
+# Why?
+
+# What?
+
+# Takeaways
+
+# Tidbits
+
+# Value

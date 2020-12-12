@@ -26,6 +26,7 @@ theme_set(theme_bw())
 library("sf")                #For working with spatial data
 library("rnaturalearth")     #Provides a map of countries of the entire world
 library("rnaturalearthdata") #Provides common data of countries of the entire world
+library(sqldf)
 
 #Plotting World Map
 ##############################################################################
@@ -54,8 +55,45 @@ COLLAB<-as.data.frame(read.csv("collab.csv",
 str(COLLAB)
 
 
-cities<-COLLAB$Cities
+cities<-COLLAB$City
+
+countries<-COLLAB$Country
+
+library(maps)
 
 data(world.cities)
 
-str(maps)
+city_collab <- world.cities %>% filter(name %in% cities)
+
+city_collab <- world.cities %>% filter(country.etc %in% countries)
+
+city_collab
+
+city_collab <- city_collab %>% rename(City = name)
+
+city_collab <- select(city_collab, -c(pop, capital, country.etc))
+
+final <- merge(city_collab, COLLAB, by = intersect(names(city_collab), names(COLLAB)))
+
+str(final)
+
+final <- st_as_sf(final, coords = c("long", "lat"), remove = FALSE, 
+                     crs = 4326, agr = "constant")
+
+#Clear all plots
+
+dev.off()
+
+
+library("ggrepel")
+ggplot(data = new_world) +
+        geom_sf(color = "white", fill = "#A5A5A5") +
+        ggtitle("Geographic Spread", subtitle = "International Collaborators") +
+        geom_sf(data = final, aes(size = 0.1, color = University)) + 
+        theme(aspect.ratio=3/5) +
+         geom_label_repel(data = final, nudge_x = -1, nudge_y = 20,
+                  direction = "x",
+                  aes(x = long, y = lat, size = 1,
+                  fontface = "bold",
+                  label = paste(Collaborator, University, sep="\n"), vjust = 0))
+

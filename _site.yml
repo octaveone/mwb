@@ -4,8 +4,8 @@ navbar:
   left:
     - text: "Pustak"
       href: books.html
-   # - text: "Academic Tidbits"
-   #   href: acad.html
+    - text: "Tidbits"
+      href: acad.html
    # - text: "Ramblings"
    #   href: rambs.html
    # - text: "Your Turn"
